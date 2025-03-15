@@ -1,11 +1,10 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-starter-kit",
+    "name": "eventraptor/zoomosc",
     "type": "project",
-    "description": "The official Laravel starter kit for Livewire.",
+    "description": "Connecting Laravel with ZoomOSC",
     "keywords": [
-        "laravel",
-        "framework"
+        "zoomosc"
     ],
     "license": "MIT",
     "require": {
