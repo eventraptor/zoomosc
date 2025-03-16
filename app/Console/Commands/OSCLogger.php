@@ -40,10 +40,9 @@ class OSCLogger extends Command
                             return;
                         }
 
-                        if (stripos($result['address'], '|') !== false) {
-                            [$result['address'], $result['time']] = explode('|', $result['address'], 2);
-                        }
-                        $message = $result['address'].
+                        $message = round($result['time'], 1).
+                                   ' '.
+                                   $result['address'].
                                    ' '.
                                    implode(' ', $result['args']).
                                    PHP_EOL;
